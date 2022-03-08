@@ -1,0 +1,2 @@
+(self.webpackChunkmarvin=self.webpackChunkmarvin||[]).push([[883],{9616:function(n,e,u){"use strict";u.r(e);var t=u(7294);e.default=function(){return t.createElement("h1",null,"404: Not Found")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-67b16b510aafa404daea.js.map
