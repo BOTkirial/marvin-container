@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: registry.cedricmarinot.fr
-  IMAGE_NAME: botkirial/mail-server
+  IMAGE_NAME: botkirial/marvin
   REGISTRY_PASS: ${{ secrets.REGISTRY_PWD }}
   REGISTRY_USERNAME: ${{ secrets.REGISTRY_USER }}
 
