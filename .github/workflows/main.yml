@@ -22,4 +22,4 @@ jobs:
     - name: build image
       run: docker build . --file dockerfile -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
     - name: push image
-      run: docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+      run: docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
