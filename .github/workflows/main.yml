@@ -20,6 +20,6 @@ jobs:
     - name: se connecte au custom registry
       run: echo "$REGISTRY_PASS" | docker login https://registry.cedricmarinot.fr -u "$REGISTRY_USERNAME" --password-stdin
     - name: build image
-      run: docker build . --file dockerfile -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+      run: docker build . --file dockerfile -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }} --no-cache
     - name: push image
       run: docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
